@@ -512,6 +512,9 @@
             <mxRectangle height="30" width="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="UMv9jRP8bCGiG6MLudYG-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span dir=&quot;ltr&quot; id=&quot;assignment-student-header-content&quot; wrap=&quot;no-wrap&quot; class=&quot;css-1y933ew-view--flex-flex&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;css-1bmgv0i-view-flexItem&quot;&gt;&lt;span dir=&quot;ltr&quot; wrap=&quot;no-wrap&quot; class=&quot;css-1t3hccf-view--flex-flex&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;line-height: 1.05;&quot;&gt;&lt;u&gt;&lt;span dir=&quot;ltr&quot; class=&quot;css-1vi9rtb-view-flexItem&quot;&gt;&lt;span wrap=&quot;break-word&quot; data-testid=&quot;title&quot; class=&quot;css-mi1fmo-text&quot;&gt;Project Step 2- ERD, RM and 1NF 2NF and 3NF&lt;/span&gt;&lt;/span&gt;&lt;/u&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Group 1&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;University of North Carolina at Greensboro&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;IST423: Information Storage Retrieval&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;Dr. Rukayya Umar&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;March 02, 2026&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="760" x="45" y="10" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
