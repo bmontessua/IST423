@@ -501,7 +501,7 @@ SELECT
     S.type
 FROM Showing_Seat SS
 JOIN Seat S ON SS.seatID = S.seatID;
--- View 4
+-- View 4: Customer details
 CREATE VIEW CustomerDetails AS
 SELECT 
     M.title, 
