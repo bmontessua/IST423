@@ -470,19 +470,49 @@ INSERT INTO Showing_Seat (showingID, seatID) VALUES
 -- Step 4: Create Views
 -- View 1: Show all movies available
 CREATE VIEW Movies AS
-SELECT M.movieID, M.title, S.showingID, S.date, S.time
+SELECT 
+    M.movieID, 
+    M.title, 
+    S.showingID, 
+    S.date, 
+    S.time
 FROM Movie M
 JOIN Showing S ON M.movieID = S.movieID
 JOIN Screen SC ON S.screenID = SC.screenID
 WHERE SC.theaterID IN (SELECT theaterID FROM Theater);
 --View 2: List all Showings
 CREATE VIEW MovieShowings AS
-SELECT SM.showingID, M.movieID, M.title, S.date, S.time
+SELECT 
+    SM.showingID, 
+    M.movieID, 
+    M.title, 
+    S.date, 
+    S.time
 FROM ShowingsMovies SM
 JOIN Movie M ON SM.movieID = M.movieID
 JOIN Showing S ON SM.showingID = S.showingID;
 -- View 3: View theaters and seating capacity
 CREATE VIEW ShowingSeatDetails AS
-SELECT SS.showingID, SS.seatID, S.row, S.column, S.type
+SELECT 
+    SS.showingID, 
+    SS.seatID, 
+    S.row, 
+    S.column, 
+    S.type
 FROM Showing_Seat SS
 JOIN Seat S ON SS.seatID = S.seatID;
+-- View 4
+CREATE VIEW CustomerDetails AS
+SELECT 
+    M.title, 
+    S.date, 
+    S.time, 
+    T.customerName, 
+    T.price, 
+    SE."row", 
+    SE."column", 
+    SE.type
+FROM Ticket T
+JOIN Showing S ON T.showingID = S.showingID
+JOIN Movie M ON S.movieID = M.movieID
+JOIN Seat SE ON T.seatID = SE.seatID;
